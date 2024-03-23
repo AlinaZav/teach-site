@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+    a {
+    text-decoration: none;
+    color: #fff; 
+    }
+
+    .inter {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .center {
+        padding-left: 360px;
+        padding-right: 360px;
+    }
+
+    .header{
+background-color: gray;
+background-image: url(img/carbg.png);
+background-repeat: no-repeat;
+padding-top: 40px;
+
+    }
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.navLinks{
+
+    display: flex;
+    justify-content: baseline;
+    gap: 35px;
+}
+    .linkNav{
+        font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+    }
+
+    .offer{
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 589px;
+    }
+
+    .offer_title{
+        font-size: 96px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+color: #fff;
+padding-bottom: 38px;
+    }
+
+.offer_btn{
+    width: 430px;
+height: 90px;
+border: solid black;
+background-color: black;
+color: #fff;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0%;
+cursor: pointer;
+}
+
+.info{
+    padding-top: 150px;
+}
+
+.infoWhyTitle{
+    font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+color: black;
+text-align: center;
+}
+
+.infoWhyCards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.infoCard{
+    width: 270px;
+height: 323px;
+text-align: center;
+}
+
+.infoCardTitle{
+    font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+padding-top: 30px;
+padding-bottom: 30px;
+
+
+}
+
+.infoCardSuptitle{
+    font-size: 16px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.infoHowTitle{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    color: black;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+
+.infoHowSupitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.infoHowSubitle{
+    font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+color: black;
+padding-top: 50px;
+padding-bottom:  50px;
+}
+
+.infoHowlists{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.infoHowlist{
+    width: 510px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 140px;
+}
+
+.infoHowListText{
+    font-size: 16px;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 0%;
+
+}
+
+.infoHowConclusion{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.infoVideo{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.infoVideoTitle{
+    font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+padding-bottom: 19px;
+}
+
+.infoVideoSuptitle{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    padding-bottom: 50px;
+}
+
+
+
+
