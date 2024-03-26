@@ -388,7 +388,63 @@ cursor: pointer;
     padding-bottom: 150px;
 }
 
+.contactUs{
+    color: rgb(0, 102, 255);
+}
+
+.formContactTitle{
+    font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 20px;
+}
+
+.formContactSuptitle{
+    font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+text-align: center;
+padding-bottom: 50px;
+}
+
+::placeholder{
+    color: rgb(21, 21, 21);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 130%;
+padding: 20px 18px 205px 18px;
+}
+
+.form_data{
+    border: 1px solid rgb(0, 102, 255);
+    width: 270px;
+height: 57px;
+
+}
 
 
+.form_text{
+    border: 1px solid rgb(0, 102, 255);
+    width: 580px;
+height: 291px;
+display: ruby;
+}
 
 
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.btn_sumb{
+    display: flex;
+    
+    padding-bottom: 150px;
+    justify-content: center;
+}
